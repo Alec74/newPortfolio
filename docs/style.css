@@ -2,12 +2,15 @@ main{
     background-color: cadetblue;
 }
 
-.img-thumbnail{
-    max-width: 25%;
+.about{
+    font-size: 50px;
+}
+.name{
+    font-size: 25px;
 }
 
-main{
-    padding-top: 55px;
+.img-thumbnail{
+    max-width: 25%;
 }
 
 #email{
