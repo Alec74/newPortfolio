@@ -16,7 +16,7 @@
     <!-- navbar header make it fixed to top-->
     <header>
         <!-- As a link to sections of the page -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-tabs">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Full Stack Web Development</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -28,11 +28,17 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#aboutMe">About Me</a>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Featured Projects</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#recipes">Cocktail and Drink Recipes</a></li>
+                              <li><a class="dropdown-item" href="#codequiz">Code Quiz</a></li>
+                              <li><a class="dropdown-item" href="#worksched">WorkDay Planner</a></li>
+                              <li><a class="dropdown-item" href="#weather">Weather Dashboard</a></li>
+                            </ul>
+                          </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#showcase">Featured Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Me</a>
+                            <a class="nav-link" href="#foot">Contact Me</a>
                         </li>
                     </ul>
                 </div>
@@ -64,7 +70,7 @@
         <div class="container developed">
             <div class="row align-items-center my-5" id="showcase">
                 <div class="col-12">
-                    <div class="card border-danger">
+                    <div class="card border-danger" id="recipes">
                         <img src="images/project1.png" class="card-img-top"
                             alt="showcase of cocktail and recipe generator">
                         <div class="card-body text-center">
@@ -79,7 +85,7 @@
             </div>
             <div class="row featured">
                 <div class="col-lg-4 col-sm-12 my-5">
-                    <div class="card border-info">
+                    <div class="card border-info" id="codequiz">
                         <img src="images/codeQuiz.png" class="card-img-top" alt="showcase of code quiz">
                         <div class="card-body text-center">
                             <h5 class="card-title">Code Quiz!</h5>
@@ -91,7 +97,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-12 my-5">
-                    <div class="card border-info">
+                    <div class="card border-info" id="worksched">
                         <img src="images/workDaySched.png" class="card-img-top" alt="showcase of work day scheduler">
                         <div class="card-body text-center">
                             <h5 class="card-title">Workday Planner</h5>
@@ -103,7 +109,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-12 my-5">
-                    <div class="card border-info">
+                    <div class="card border-info" id="weather">
                         <img src="images/dynamicWeather.png" class="card-img-top"
                             alt="showcase of weather dashboard">
                         <div class="card-body text-center">
@@ -119,7 +125,7 @@
         </div>
     </main>
     <footer>
-        <nav class="navbar navbar-light bg-dark ">
+        <nav class="navbar navbar-light bg-dark" id="foot">
             <div class="container-fluid">
                 <span class="navbar-text">
                     <button type="button" class="btn btn-outline-info"><a class="nav-link text-light"
