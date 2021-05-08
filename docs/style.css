@@ -11,6 +11,7 @@ main{
 
 .img-thumbnail{
     max-width: 25%;
+    max-height: 40%;
 }
 
 #email{
