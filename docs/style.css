@@ -1,0 +1,22 @@
+main{
+    background-color: cadetblue;
+}
+
+.img-thumbnail{
+    max-width: 25%;
+}
+
+main{
+    padding-top: 55px;
+}
+
+#email{
+    text-decoration: underline;
+}
+#email:hover{
+    cursor: pointer;
+    color: coral;
+}
+#email:active{
+    user-select: all;
+}

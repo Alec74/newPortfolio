@@ -16,7 +16,7 @@
     <!-- navbar header make it fixed to top-->
     <header>
         <!-- As a link to sections of the page -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Full Stack Web Development</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -26,10 +26,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">About Me</a>
+                            <a class="nav-link" aria-current="page" href="#aboutMe">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Featured Projects</a>
+                            <a class="nav-link" href="#showcase">Featured Projects</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact Me</a>
@@ -39,78 +39,103 @@
             </div>
         </nav>
     </header>
+    <main>
+        <div class="container py-3" id="aboutMe">
+            <div class="row heading">
+                <div class="col-12 text-light">
+                    <p class="lead text-center">
+                        About Me
+                    </p>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae
+                        reiciendis
+                        nulla dolore laborum ipsa eaque vitae fugiat ad quaerat sunt, rem saepe quod eos, tempora natus
+                        iusto, cupiditate sit quidem.</p>
+                    <div class="d-flex justify-content-center my-2">
+                        <img src="../images/seniorPortrait.jpeg" class="img-thumbnail"
+                            alt="professional picture of dev">
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="container aboutMe">
-        <div class="row">
-            <div class="col-12">
-                <p class="lead text-center">
-                    About Me
-                </p>
-                <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae reiciendis
-                    nulla dolore laborum ipsa eaque vitae fugiat ad quaerat sunt, rem saepe quod eos, tempora natus
-                    iusto, cupiditate sit quidem.</p>
+        <div class="container developed">
+            <div class="row align-items-center my-5" id="showcase">
+                <div class="col-12">
+                    <div class="card border-danger">
+                        <img src="../images/project1.png" class="card-img-top"
+                            alt="showcase of cocktail and recipe generator">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Cocktail and Recipe Generator</h5>
+                            <a href="https://adamspiegel.github.io/Group-Project-1/" class="btn btn-primary mx-3">Live
+                                Webpage</a>
+                            <a href="https://github.com/AdamSpiegel/Group-Project-1" class="btn btn-primary mx-3">Github
+                                Repo</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-
-    <div class="container developed">
-        <div class="row showcase align-items-center my-5">
-            <div class="col-12">
-                <div class="card">
-                    <img src="../images/project1.png" class="card-img-top"
-                        alt="showcase of cocktail and recipe generator">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Cocktail and Recipe Generator</h5>
-                        <a href="https://adamspiegel.github.io/Group-Project-1/" class="btn btn-primary mx-3">Live
-                            Webpage</a>
-                        <a href="https://github.com/AdamSpiegel/Group-Project-1" class="btn btn-primary mx-3">Github
-                            Repo</a>
+            <div class="row featured">
+                <div class="col-lg-4 col-sm-12 my-5">
+                    <div class="card border-info">
+                        <img src="../images/codeQuiz.png" class="card-img-top" alt="showcase of code quiz hw">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Code Quiz!</h5>
+                            <a href="https://alec74.github.io/codeQuiz/" class="btn btn-primary mx-3">Live
+                                Webpage</a>
+                            <a href="https://github.com/Alec74/codeQuiz" class="btn btn-primary mx-3">Github
+                                Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 my-5">
+                    <div class="card border-info">
+                        <img src="../images/workDaySched.png" class="card-img-top" alt="showcase of work day sched hw">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Workday Planner</h5>
+                            <a href="https://alec74.github.io/workdayPlanner/" class="btn btn-primary mx-3">Live
+                                Webpage</a>
+                            <a href="https://github.com/Alec74/workdayPlanner" class="btn btn-primary mx-3">Github
+                                Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 my-5">
+                    <div class="card border-info">
+                        <img src="../images/dynamicWeather.png" class="card-img-top"
+                            alt="showcase of weather dashboard hw">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Weather Dashboard</h5>
+                            <a href="https://alec74.github.io/weatherDashboard/" class="btn btn-primary mx-3">Live
+                                Webpage</a>
+                            <a href="https://github.com/Alec74/weatherDashboard" class="btn btn-primary mx-3">Github
+                                Repo</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row featured">
-            <div class="col-lg-4 col-sm-12 my-5">
-                <div class="card">
-                    <img src="../images/codeQuiz.png" class="card-img-top"
-                        alt="showcase of code quiz hw">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Code Quiz!</h5>
-                        <a href="https://alec74.github.io/codeQuiz/" class="btn btn-primary mx-3">Live
-                            Webpage</a>
-                        <a href="https://github.com/Alec74/codeQuiz" class="btn btn-primary mx-3">Github
-                            Repo</a>
-                    </div>
-                </div>
+    </main>
+    <footer>
+        <nav class="navbar navbar-light bg-dark ">
+            <div class="container-fluid">
+                <span class="navbar-text">
+                    <button type="button" class="btn btn-outline-info"><a class="nav-link text-light"
+                            href="https://github.com/Alec74">Github Profile</a></button>
+                </span>
+                <span class="navbar-text">
+                    <button type="button" class="btn btn-outline-info"><a class="nav-link text-light"
+                            href="https://www.linkedin.com/in/alec-mcglone-900904206/">LinkedIn Profile</a></button>
+                </span>
+                <span class="navbar-text text-light">
+                    Email: <span id="email">alecmcglone@gmail.com</span>
+                </span>
+                <span class="navbar-text text-light">
+                    203-856-7364
+                </span>
+                
             </div>
-            <div class="col-lg-4 col-sm-12 my-5">
-                <div class="card">
-                    <img src="../images/workDaySched.png" class="card-img-top"
-                        alt="showcase of work day sched hw">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Workday Planner</h5>
-                        <a href="https://alec74.github.io/workdayPlanner/" class="btn btn-primary mx-3">Live
-                            Webpage</a>
-                        <a href="https://github.com/Alec74/workdayPlanner" class="btn btn-primary mx-3">Github
-                            Repo</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-12 my-5">
-                <div class="card">
-                    <img src="../images/dynamicWeather.png" class="card-img-top"
-                        alt="showcase of weather dashboard hw">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Weather Dashboard</h5>
-                        <a href="https://alec74.github.io/weatherDashboard/" class="btn btn-primary mx-3">Live
-                            Webpage</a>
-                        <a href="https://github.com/Alec74/weatherDashboard" class="btn btn-primary mx-3">Github
-                            Repo</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        </nav>
+    </footer>
     <!--  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
