@@ -1,12 +1,29 @@
+*{
+    font-family: 'Crimson Text', serif;
+}
+
 main{
     background-color: cadetblue;
 }
 
-.about{
-    font-size: 50px;
+.change{
+    background-color: cadetblue;
 }
-.name{
-    font-size: 25px;
+
+.color-card{
+    background-color: rgb(165, 165, 165);
+}
+
+.btn-primary{
+    background-color: rgb(52, 214, 52);
+}
+
+.font-head{
+    font-family: 'PT Serif', serif;
+}
+
+.font-text{
+    font-family: 'Crimson Text', serif;
 }
 
 #email{
