@@ -9,13 +9,6 @@ main{
     font-size: 25px;
 }
 
-.img-thumbnail{
-    max-width: 25%;
-    max-height: 40%;
-    min-width: 87px;
-    min-height: 115px;
-}
-
 #email{
     text-decoration: underline;
 }
