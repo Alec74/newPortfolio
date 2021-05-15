@@ -14,8 +14,7 @@ When loading the webpage the user is presented...
 
 # Intro
 ![image of webpage](docs/images/demo1.png)
-# Middle
-![image of webpage](docs/images/demo2.png)
+
 # Footer
 ![image of webpage](docs/images/demo3.png)
 
