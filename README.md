@@ -19,4 +19,4 @@ When loading the webpage the user is presented...
 ![image of webpage](docs/images/demo3.png)
 
 View Live Webpage!
-https://alec74.github.io/weatherDashboard/
+https://alec74.github.io/newPortfolio/
